@@ -125,13 +125,13 @@
     </repositories>
     
     <build>
-        <sourceDirectory>main/java</sourceDirectory>
+        <sourceDirectory>src/main/java</sourceDirectory>
         <outputDirectory>target</outputDirectory>
-        <testSourceDirectory>test/java</testSourceDirectory>
+        <testSourceDirectory>src/test/java</testSourceDirectory>
         <testOutputDirectory>target</testOutputDirectory>
         <resources>
 			<resource>
-			    <directory>main/resources</directory>
+			    <directory>src/main/resources</directory>
 			    <filtering>true</filtering>
 			    <includes>
 			        <include>**/*.properties</include>
@@ -141,7 +141,7 @@
         </resources>
         <testResources>
             <testResource>
-                <directory>test/resources</directory>
+                <directory>src/test/resources</directory>
                 <filtering>true</filtering>
                 <includes>
                     <include>**/*.properties</include>
@@ -163,10 +163,10 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
                     <warName>springmvc</warName>
-                    <webXml>main/webapp/WEB-INF/web.xml</webXml>
+                    <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
 					<webResources>
 						<resource>
-							<directory>main/webapp</directory>
+							<directory>src/main/webapp</directory>
 							<excludes>
 								<exclude>WEB-INF/web.xml</exclude>
 							</excludes>

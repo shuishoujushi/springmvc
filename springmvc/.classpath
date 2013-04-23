@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-  <classpathentry kind="src" path="test/java" including="**/*.java"/>
-  <classpathentry kind="src" path="test/resources" including="**/*.properties|**/*.xml" excluding="**/*.java"/>
-  <classpathentry kind="src" path="main/java" including="**/*.java"/>
-  <classpathentry kind="src" path="main/resources" including="**/*.properties|**/*.xml" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/test/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/test/resources" including="**/*.properties|**/*.xml" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" including="**/*.properties|**/*.xml" excluding="**/*.java"/>
   <classpathentry kind="output" path="target"/>
   <classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar"/>
   <classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
